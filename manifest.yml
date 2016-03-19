@@ -1,0 +1,16 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: cake-translate-server
+  host: cake-translate
+  disk_quota: 1024M
+  services:
+  - cake-translate-server-cloudantNoSQLDB
+  - cake-translate-server-imfpush
+  - cake-translate-server-AdvancedMobileAccess
+  - Visual Recognition
+  - AlchemyAPI-gt
+  - google-translate
+  command: node app.js

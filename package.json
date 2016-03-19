@@ -1,0 +1,28 @@
+{
+	"author": "Julian Tiemann",
+	"name": "cake-translate-server",
+	"version": "0.0.1",
+	"description": "cake translate server",
+	"scripts": {
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"express": "4.12.x",
+		"cfenv": "1.0.x",
+		"body-parser": "*",
+    "multer":"*",
+    "express": "4.*",
+    "ibmbluemix": "*",
+    "string": "*",
+    "watson-developer-cloud": "*",
+		"lodash": "*",
+		"lame": "*",
+		"wav": "*",
+		"google-translate": "*"
+	},
+	"repository": {},
+	"engines": {
+    "node": "5.2.0",
+    "npm": "3.5.2"
+  }
+}
